@@ -15,7 +15,7 @@ jobs:
       run: echo "Hello Jake"
 
     - name : Bước 2 - Tải code
-      run: actions/checkou@v6
+      run: actions/checkout@v6
 
     - name: Bước 3 - Đọc file
       run: cat README.md
