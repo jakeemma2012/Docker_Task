@@ -4,7 +4,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main   # Hoặc đổi thành branch bạn muốn theo dõi
+      - master   # Hoặc đổi thành branch bạn muốn theo dõi
 
 jobs:
   build-and-push:
