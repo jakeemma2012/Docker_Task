@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+    
+jobs:
+ thuc_hanh_doc_file:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name : Bước 1 - Xin Chào
+      run: echo "Hello Jake"
+
+    - name : Bước 2 - Tải code
+      run: actions/checkou@v6
+
+    - name: Bước 3 - Đọc file
+      run: cat README.md
