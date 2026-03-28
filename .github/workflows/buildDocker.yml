@@ -38,7 +38,7 @@ jobs:
         IMAGE_NAME=${{ secrets.DOCKER_USERNAME }}/springboot-app:latest
         docker push $IMAGE_NAME
         
-    - name: Triển khai lên DevOps Classroom
+    - name: Triển khai lên DevOps Classroom SV
       run: |
         REPO="jakeemma2012/springboot-app"
         CONTAINER_PORT=80
